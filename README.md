@@ -1,5 +1,6 @@
 # BlurPerception
-Code for Experiments Detailed in "Prior Experience Alters the Appearance of Blurry Object Borders"
+Code for Experiments Detailed in "Prior Experience Alters the Appearance of Blurry Object Borders". 
+If you encounter any problems with the code, please let me know (dianacperezrivera@gmail.com).
 
 To run the Experiment:
 Put all the code for the Version you want to run in one folder (files are labeled V4, V5, etc., according to the Version). The files necessary to run the Experiment are 
@@ -32,7 +33,7 @@ The outputs of the .m file “blurFinalVX” are two .mat files named “Version
 
 5.	Select all the data in “s1.xlsx” and create a Pivot Table with Timing Error and Timeout under Filters, testBlur under Columns, Test and ReCode Prime under Rows (only Test for Versions 8-9B), and Average of ChoseTest (or Chose Same for Versions 7-9B) under Values. 
 
-6.	We then copy the values in each row onto the appropriate sheet in the spreadsheet “Summary.xlsx”. For example, Copy the values for the stimulus Lamp, for Prime 1, for Test Blur level 3, onto the appropriate cell in "Summary.xlsx".  Rename this spreadsheet “SummaryV4.xlsx”.
+6.	We then copy the values in each row onto the appropriate sheet in the spreadsheet “Summary.xlsx”. For example, Copy the values for the stimulus Lamp, for Prime 1, for Test Blur level 3, onto the appropriate cell in "Summary.xlsx".  Rename this spreadsheet “SummaryV4.xlsx”. (For Version 7, please check the script "accXlstoMatlabV7.m" and use the name for the Summary file that is used in the script). 
 
 7.	Complete these steps for all subjects, making sure to copy the averages onto “SummaryV4.xlsx”. Then run the script “accXlstoMatlabV4.m”. This will create a file named “AccuraciesV4.mat”.
 
